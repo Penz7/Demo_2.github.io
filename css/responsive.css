@@ -1,0 +1,154 @@
+@media (max-width: 799px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  .footer-content {
+    gap: 0 10px;
+  }
+
+  .navbar-menu {
+    display: none;
+  }
+
+  .hero-socials {
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-item {
+    position: static;
+  }
+
+  .main-box {
+    height: 120vh;
+  }
+
+  .second-box {
+    height: 120vh;
+  }
+
+  .main-bg {
+    top: 135%;
+  }
+
+  #feature {
+    margin-top: -100px;
+    flex-direction: column;
+  }
+
+  #feature .feature-content {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #feature .feature-boxes {
+    max-width: 100%;
+  }
+
+  #alternative {
+    flex-direction: column;
+  }
+
+  .normal-box,
+  .normal-second-box {
+    height: 50vh;
+  }
+
+  #contact .contact-boxes {
+    padding: 20px;
+    height: auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .main-box,
+  .second-box {
+    height: 100vh;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  #hero {
+    top: 180px;
+  }
+
+  #hero .hero-content h2 {
+    font-size: 32px;
+  }
+
+  .hero-contact .main-btn,
+  .hero-contact .contact-btn {
+    padding: 10px 15px;
+  }
+
+  .main-bg {
+    display: none;
+  }
+
+  #feature {
+    margin-top: -20rem;
+  }
+
+  #feature .feature-boxes {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+
+  .feature-boxes .feature-box {
+    max-width: 100%;
+  }
+
+  #terminal {
+    padding: 0 20px;
+  }
+
+  .terminal-content .terminal-des,
+  .terminal-content .terminal-info {
+    width: 100%;
+  }
+
+  .terminal-boxes {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px 0;
+  }
+
+  .normal-box,
+  .normal-second-box {
+    height: 50vh;
+  }
+
+  #alternative {
+    top: 40px;
+  }
+
+  .alternative-content .alternative-info {
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .alternative-des {
+    width: 100%;
+  }
+
+  #contact .contact-boxes {
+    padding: 10px;
+  }
+
+  #contact .contact-boxes {
+    top: -100px;
+    flex-direction: column;
+    gap: 10px 0;
+  }
+
+  .footer-content {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px 0;
+  }
+}
